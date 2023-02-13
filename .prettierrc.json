@@ -1,0 +1,32 @@
+{
+  "semi": false,
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "useTabs": false,
+        "printWidth": 80,
+        "tabWidth": 2,
+        "singleQuote": false,
+        "trailingComma": "es5",
+        "jsxBracketSameLine": true,
+        "parser": "flow",
+        "semi": true,
+        "bracketSpacing": true,
+        "bracketSameLine": true,
+        "arrowParens": "always",
+        "proseWrap": "always"
+      }
+    },
+    {
+      "files": "*.html",
+      "options": {
+        "printWidth": 80,
+        "tabWidth": 2,
+        "singleQuote": false,
+        "jsxBracketSameLine": true,
+        "bracketSameLine": true
+      }
+    }
+  ]
+}
