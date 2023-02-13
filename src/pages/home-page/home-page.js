@@ -1,5 +1,6 @@
 import React from "react";
 import { v4 as uuid } from "uuid";
+import { GameItem } from "../../components/game-item";
 import "./home-page.css";
 
 export const HomePage = () => {
@@ -65,5 +66,11 @@ export const HomePage = () => {
         "Assassin’s Creed Valhalla — мультиплатформенная компьютерная игра в жанре action/RPG, разработанная студией Ubisoft Montreal под издательством компании Ubisoft. Является двенадцатой игрой в серии игр Assassin’s Creed.",
     },
   ];
-  return <div className="home-page" style={{ color: " white" }}></div>;
+  return (
+    <div className="home-page" style={{ color: " white" }}>
+      {GAMES.map((game) => (
+        <GameItem game={game} key={uuid()} />
+      ))}
+    </div>
+  );
 };
