@@ -6,7 +6,7 @@ import "./home-page.css";
 export const HomePage = () => {
   const GAMES = [
     {
-      image: "/game-covers/forza5.jpeg",
+      image: "/game-covers/forza5.jpg",
       title: "Forza Horizon 5",
       genres: ["Гонки", "Симулятор", "Открытый мир"],
       price: 2343,
@@ -26,7 +26,7 @@ export const HomePage = () => {
         "Battlefield™ 2042 — это шутер от первого лица, в котором серия возвращается к легендарным масштабным сражениям. В будущем, где царит хаос, адаптируйтесь и процветайте на постоянно меняющихся полях боя благодаря своему отряду и арсеналу новейших технологий.",
     },
     {
-      image: "/game-covers/lifeisstrange.jpeg",
+      image: "/game-covers/lifeisstrange.jpg",
       title: "Life is Strange True Colors",
       genres: ["Глубокий сюжет", "Протагонистка"],
       video: "https://www.youtube.com/embed/b6CkzwVAr0M",
@@ -46,7 +46,7 @@ export const HomePage = () => {
         "Grand Theft Auto V для PC позволяет игрокам исследовать знаменитый мир Лос-Сантоса и округа Блэйн в разрешении до 4k и выше с частотой 60 кадров в секунду.",
     },
     {
-      image: "/game-covers/rainbowsix.jpeg",
+      image: "/game-covers/rainbowsix.jpg",
       title: "Tom Clancy's Rainbow Six® Siege",
       video: "https://www.youtube.com/embed/6wlvYh0h63k",
       genres: ["Тактика", "Шутер"],
@@ -56,7 +56,7 @@ export const HomePage = () => {
         "Tom Clancy's Rainbow Six Осада – это продолжение нашумевшего шутера от первого лица, разработанного студией Ubisoft Montreal.",
     },
     {
-      image: "/game-covers/valhalla.jpg",
+      image: "/game-covers/valhala.JPG",
       title: "Assassin’s Creed Valhalla",
       genres: ["Паркур", "РПГ", "Открытый мир"],
       video: "https://www.youtube.com/embed/ssrNcwxALS4",
