@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
         <div className="App">
           <Routes>
-            <Route path="/" element={<Header />}>
+            <Route path="game-store/" element={<Header />}>
               <Route index element={<HomePage />} />
             </Route>
           </Routes>

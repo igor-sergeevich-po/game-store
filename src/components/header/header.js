@@ -1,14 +1,14 @@
-import React from "react";
-import { Outlet, NavLink } from "react-router-dom";
-import { CartBlock } from "../cart-block";
-import "./header.css";
+import React from 'react';
+import { Outlet, NavLink } from 'react-router-dom';
+import { CartBlock } from '../cart-block';
+import './header.css';
 
 export const Header = () => {
   return (
     <>
       <header className="header">
         <div className="wrapper">
-          <NavLink to="/" className="header__store-title">
+          <NavLink to="/game-store" className="header__store-title">
             Game Store
           </NavLink>
         </div>
