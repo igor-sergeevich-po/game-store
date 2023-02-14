@@ -1,7 +1,8 @@
-import React from "react";
-import { GameBuy } from "../game-buy";
-import { GameCover } from "../game-cover";
-import "./game-item.css";
+import React from 'react';
+import { GameBuy } from '../game-buy';
+import { GameCover } from '../game-cover';
+import { GameGenre } from '../game-genre';
+import './game-item.css';
 
 export const GameItem = ({ game }) => {
   return (
@@ -10,7 +11,9 @@ export const GameItem = ({ game }) => {
       <div className="game-item__details">
         <span className="game-item__title">{game.title}</span>
         <div className="game-item__genre">
-          {game.genres.map((genre) => genre)}
+          {game.genres.map((genre) => (
+            <GameGenre genre={genre} key={genre} />
+          ))}
         </div>
         <div className="game-item__buy">
           <GameBuy game={game} />
