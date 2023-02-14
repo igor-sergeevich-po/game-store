@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/igor-sergeevich-po/game-store/static/css/main.deff57c4.css",
-    "main.js": "/igor-sergeevich-po/game-store/static/js/main.0973d3fc.js",
-    "static/js/787.41265a80.chunk.js": "/igor-sergeevich-po/game-store/static/js/787.41265a80.chunk.js",
-    "index.html": "/igor-sergeevich-po/game-store/index.html",
-    "main.deff57c4.css.map": "/igor-sergeevich-po/game-store/static/css/main.deff57c4.css.map",
-    "main.0973d3fc.js.map": "/igor-sergeevich-po/game-store/static/js/main.0973d3fc.js.map",
-    "787.41265a80.chunk.js.map": "/igor-sergeevich-po/game-store/static/js/787.41265a80.chunk.js.map"
+    "main.css": "/game-store/static/css/main.deff57c4.css",
+    "main.js": "/game-store/static/js/main.6986ef9b.js",
+    "static/js/787.41265a80.chunk.js": "/game-store/static/js/787.41265a80.chunk.js",
+    "index.html": "/game-store/index.html",
+    "main.deff57c4.css.map": "/game-store/static/css/main.deff57c4.css.map",
+    "main.6986ef9b.js.map": "/game-store/static/js/main.6986ef9b.js.map",
+    "787.41265a80.chunk.js.map": "/game-store/static/js/787.41265a80.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.deff57c4.css",
-    "static/js/main.0973d3fc.js"
+    "static/js/main.6986ef9b.js"
   ]
 }
