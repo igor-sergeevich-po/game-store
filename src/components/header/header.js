@@ -11,6 +11,9 @@ export const Header = () => {
           <NavLink to="/" className="header__store-title">
             Game Store
           </NavLink>
+          <NavLink to="order" className="header__store-title">
+            OrderPage
+          </NavLink>
         </div>
         <div className="wrapper header__cart-btn-wrapper">
           <CartBlock />

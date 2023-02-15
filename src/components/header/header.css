@@ -21,3 +21,7 @@
 .header__cart-btn-wrapper {
   justify-content: flex-end;
 }
+
+.active {
+  color: green;
+}
