@@ -6,7 +6,7 @@ import './home-page.css';
 export const HomePage = () => {
   const GAMES = [
     // {
-    //   image: 'game-store/game-covers/',
+    //   image: '/game-store/game-covers/',
     //   title: '',
     //   genres: [],
     //   price: 1,
@@ -15,11 +15,11 @@ export const HomePage = () => {
     //   description: ''
     // },
     {
-      image: 'game-store/game-covers/spacebourn.jpg',
+      image: '/game-store/game-covers/spacebourn.jpg',
       title: 'SpaceBourne part 2',
       genres: ['Ролевая игра', 'Полёты', '3D'],
       price: 2900,
-      video: 'https://www.youtube.com/watch?v=9SA0bE1UvwM',
+      video: 'https://www.youtube.com/embed/9SA0bE1UvwM',
       id: 9,
       description:
         'Embark on a journey to greatness. Get ready for adrenaline-fueled battles and a chance to claim your place in the galaxy. Grab the controls of your ship, gear up for the fight, and unleash your ambition to conquer and build a new empire in the vastness of space.',
@@ -29,17 +29,17 @@ export const HomePage = () => {
       title: 'Pay Day 3',
       genres: ['Ограбления', 'Экшен', 'Криминал', 'Кооператив'],
       price: 3500,
-      video: 'https://www.youtube.com/watch?v=fWnVjcKp2x0',
+      video: 'https://www.youtube.com/embed/lDJmaV-olJ4',
       id: 7,
       description:
         'PAYDAY 3 is the explosive sequel to one of the most popular co-op shooters of the past decade. Wishlist now!',
     },
     {
-      image: 'game-store/game-covers/hellcard.jpg',
+      image: '/game-store/game-covers/hellcard.jpg',
       title: 'HellCard',
       genres: ['Ролевая игра', 'Рогалик', 'Фэнтези'],
       price: 1200,
-      video: 'https://www.youtube.com/watch?v=zssuAFHzGIA',
+      video: 'https://www.youtube.com/embed/zssuAFHzGIA',
       id: 8,
       description:
         'Hellcard – это карточный «рогалик», поддерживающий режимы одиночной и совместной игры. Покоряйте нарисованные подземелья в одиночку, с ИИ-соратниками или другими игроками и раскладывайте колоду против армий тьмы и самого архидемона!',
@@ -99,6 +99,7 @@ export const HomePage = () => {
       title: 'Assassin’s Creed Valhalla',
       genres: ['Паркур', 'РПГ', 'Открытый мир'],
       video: 'https://www.youtube.com/embed/ssrNcwxALS4',
+
       price: 2863,
       id: 6,
       description:
