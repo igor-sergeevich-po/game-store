@@ -1,9 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate,
-} from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { Header } from './components/header';
@@ -19,11 +14,11 @@ function App() {
       <BrowserRouter>
         <div className="App">
           <Routes>
-            <Route path="/" element={<Header />}>
+            <Route path="game-store/" element={<Header />}>
               <Route index element={<HomePage />} />
-              <Route path="/app/:title" element={<GamePage />} />
-              <Route path="order" element={<OrderPage />} />
-              <Route path="*" element={<NotFinedPage />} />
+              <Route path="/game-store/app/:title" element={<GamePage />} />\
+              <Route path="/game-store/order" element={<OrderPage />} />
+              <Route path="*" element={<Navigate to="/game-store/" />} />
             </Route>
           </Routes>
         </div>

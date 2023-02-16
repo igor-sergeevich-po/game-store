@@ -13,7 +13,7 @@ export const GameItem = ({ game }) => {
 
   const handleClick = () => {
     dispatch(setCurrentGame(game));
-    history(`/app/${game.title}`);
+    history(`/game-store/app/${game.title}`);
   };
 
   return (

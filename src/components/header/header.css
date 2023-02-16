@@ -12,10 +12,22 @@
 }
 
 .header__store-title {
-  color: white;
+  color: rgb(83, 95, 81);
   text-decoration: none;
   font-size: 24px;
   font-weight: bold;
+  transition: 0.3s;
+  padding: 15px;
+}
+.header__store-title:hover {
+  color: rgb(249, 167, 60);
+  transform: translateY(-5px);
+  text-shadow: #2c2828 5px 5px 0;
+}
+.header__store-title:active {
+  color: tomato;
+  transform: translateY(5px);
+  text-shadow: #2c2828 2px 2px 0;
 }
 
 .header__cart-btn-wrapper {
@@ -23,5 +35,10 @@
 }
 
 .active {
-  color: green;
+  color: rgb(215, 137, 34);
+}
+
+.text-align-center {
+  display: flex;
+  justify-content: center;
 }

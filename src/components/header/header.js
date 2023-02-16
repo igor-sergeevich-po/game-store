@@ -1,18 +1,21 @@
 import React from 'react';
 import { Outlet, NavLink } from 'react-router-dom';
 import { CartBlock } from '../cart-block';
+
 import './header.css';
 
 export const Header = () => {
+  const data = Date().split(' ').slice(0, 4).join(' ');
+
   return (
     <>
       <header className="header">
         <div className="wrapper">
-          <NavLink to="/" className="header__store-title">
+          <NavLink to="/game-store/" className="header__store-title">
             Game Store
           </NavLink>
-          <NavLink to="order" className="header__store-title">
-            OrderPage
+          <NavLink to="/game-store/order" className="header__store-title">
+            Order Page
           </NavLink>
         </div>
         <div className="wrapper header__cart-btn-wrapper">
@@ -20,7 +23,9 @@ export const Header = () => {
         </div>
       </header>
       <Outlet />
-      <footer>2023</footer>
+      <footer className="footer text-align-center">
+        <span className="secondary-text">{data}</span>
+      </footer>
     </>
   );
 };

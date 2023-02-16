@@ -26,7 +26,7 @@ export const CartBlock = () => {
       <ItemsInCart quantity={items.length} />
       <BiCartAlt
         size={25}
-        className="cart-block__icon"
+        className="cart-block__icon btn"
         onClick={() => setIsCArtMenuVisible(!isCartMenuVisible)}
       />
       {totalPrice > 0 ? (

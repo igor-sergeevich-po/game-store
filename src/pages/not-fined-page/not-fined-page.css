@@ -1,0 +1,12 @@
+.base-link {
+  transition: 0.3s;
+  padding: 25px;
+}
+.base-link:hover {
+  color: greenyellow;
+}
+
+.text-align-right {
+  display: flex;
+  justify-content: right;
+}

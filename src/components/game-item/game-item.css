@@ -7,6 +7,10 @@
   border-radius: 15px;
   cursor: pointer;
   position: relative;
+  transition: 0.3s;
+}
+.game-item:hover {
+  box-shadow: 3px 3px 3px rgb(104 101 101), -0.2em -0.2em 1em rgb(198 224 194);
 }
 
 .game-item:not(:last-child) {
