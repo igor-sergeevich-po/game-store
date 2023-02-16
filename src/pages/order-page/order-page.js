@@ -7,7 +7,6 @@ import './order-page.css';
 
 export const OrderPage = () => {
   const items = useSelector((state) => state.cart.itemsInCart);
-
   if (items.length < 1) {
     return <h1 className="text-align-center">Ваша корзина пуста</h1>;
   }

@@ -5,6 +5,36 @@ import './home-page.css';
 
 export const HomePage = () => {
   const GAMES = [
+    {
+      image: '/game-store/game-covers/naraka.jpg',
+      title: 'Naraka Bladepoint',
+      genres: ['Королевская битва', 'Для нескольких игроков', ' MMO'],
+      price: 2000,
+      video: 'https://www.youtube.com/embed/wamjJk90mtE',
+      id: 10,
+      description:
+        'NARAKA: BLADEPOINT — это «королевская битва» для 60 человек, вдохновленная мифами и легендами Дальнего Востока. Игра сочетает в себе различные виды боевых искусств, обширный арсенал оружия ближнего и дальнего боя, а также множество персонажей с невероятными',
+    },
+    {
+      image: '/game-store/game-covers/starwars.jpg',
+      title: 'Star Wars',
+      genres: ['Free', 'MMORPG', 'Открытый мир'],
+      price: 3,
+      video: 'https://www.youtube.com/embed/M9oQyYNreAI',
+      id: 11,
+      description:
+        'Star Wars™: The Old Republic™ — это бесплатная MMORPG, в которой вы будете в центре своей собственной истории. Примерьте на себя роль джедая, ситха, охотника за головами или другую легендарную роль во вселенной «Звёздных Войн» в далекой-далекой галактике за 3000 лет до',
+    },
+    {
+      image: '/game-store/game-covers/undecember.jpg',
+      title: 'Undecember',
+      genres: ['Ролевая игра', 'Слэшер', 'Для нескольких игроков'],
+      price: 2999,
+      video: 'https://www.youtube.com/embed/avzxX43SVME',
+      id: 12,
+      description:
+        'UNDECEMBER — это ролевая игра с элементами боевика в жанре Hack & Slash, где игроки могут обойти обычные ограничения по количеству навыков, бесконечно комбинируя разнообразные руны навыков и руны привязки. Станьте руноискателем, развивайте персонажей и',
+    },
     // {
     //   image: '/game-store/game-covers/',
     //   title: '',

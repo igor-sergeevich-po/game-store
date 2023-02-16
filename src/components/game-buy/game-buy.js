@@ -1,8 +1,8 @@
 import React from 'react';
 import { Button } from '../button/button';
 import { useDispatch, useSelector } from 'react-redux';
-import './game-buy.css';
 import { deleteItemFromCart, setItemInCart } from '../../redux/cart/reducer';
+import './game-buy.css';
 
 export const GameBuy = ({ game }) => {
   const dispatch = useDispatch();

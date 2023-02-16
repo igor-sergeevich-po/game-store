@@ -3,9 +3,9 @@ import { GameBuy } from '../game-buy';
 import { GameCover } from '../game-cover';
 import { GameGenre } from '../game-genre';
 import { useNavigate } from 'react-router';
-import './game-item.css';
 import { useDispatch } from 'react-redux';
 import { setCurrentGame } from '../../redux/games/reducer';
+import './game-item.css';
 
 export const GameItem = ({ game }) => {
   const history = useNavigate();
