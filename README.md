@@ -3,7 +3,7 @@ Game Store spa
 При разработке приложения использовались следующие технологии:
 react, @redux/toolkit, react-router-dom.
 
-Целью проекта является закрепление на практике полученнх знаний во время изучения выше перечисленных технологий.
+Целью проекта является закрепление на практике полученных знаний во время изучения выше перечисленных технологий.
 
 Quick start:
 
@@ -21,4 +21,4 @@ Quick start:
 
 ![screen app2](https://user-images.githubusercontent.com/93769681/220621081-bdf6abe1-5ed0-409f-897c-9e18c6e10a97.png){ width=50% }
 
-![screen](<img src="(https://user-images.githubusercontent.com/93769681/220621081-bdf6abe1-5ed0-409f-897c-9e18c6e10a97.png)" width="450"/>)
+![screen]<img src="(https://user-images.githubusercontent.com/93769681/220621081-bdf6abe1-5ed0-409f-897c-9e18c6e10a97.png)" width="450"/>
