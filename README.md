@@ -18,9 +18,9 @@ react, @redux/toolkit, react-router-dom, react-icons, classnames, gh-pages, css,
 
 ## Протестировать проект:
 для запуска приложения перейдите по следующей ссылке: [Запустить приложение Game store](https://igor-sergeevich-po.github.io/game-store/)
-
-<img src='https://user-images.githubusercontent.com/93769681/220621081-bdf6abe1-5ed0-409f-897c-9e18c6e10a97.png' width=70% />
-
+<p align="center">
+ <img src='https://user-images.githubusercontent.com/93769681/220621081-bdf6abe1-5ed0-409f-897c-9e18c6e10a97.png' width=70% />
+</p>
 
 ## Как установить приложение:
 * перед началом установите git и npm:
@@ -40,8 +40,8 @@ react, @redux/toolkit, react-router-dom, react-icons, classnames, gh-pages, css,
 5) npm i
 6) npm start
 7) приступить к использованию приложения
-
-<img src='https://user-images.githubusercontent.com/93769681/220620932-676bfa91-67d8-4813-8e5e-24da50619de8.png' width=70% />
-
+<p align="center">
+ <img src='https://user-images.githubusercontent.com/93769681/220620932-676bfa91-67d8-4813-8e5e-24da50619de8.png' width=70% />
+</p>
 
 
