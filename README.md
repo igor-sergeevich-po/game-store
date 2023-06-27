@@ -16,7 +16,7 @@ react, @redux/toolkit, react-router-dom, react-icons, classnames, gh-pages, css,
 ## Цель проекта:
 закрепление на практике полученных знаний во время изучения выше перечисленных технологий.
 
-## Протестирова:
+## Протестировать проект:
 для запуска приложения перейдите по следующей ссылке: [Запустить приложение Game store](https://igor-sergeevich-po.github.io/game-store/)
 
 <img src='https://user-images.githubusercontent.com/93769681/220621081-bdf6abe1-5ed0-409f-897c-9e18c6e10a97.png' width=70% />
