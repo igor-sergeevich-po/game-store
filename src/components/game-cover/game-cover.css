@@ -1,0 +1,6 @@
+.game-cover {
+  height: 170px;
+  width: 100%;
+  background-size: cover;
+  border-top-right-radius: 15px;
+}

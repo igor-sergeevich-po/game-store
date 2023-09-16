@@ -1,12 +1,3 @@
-<h1 align="center">
- Game store spa
-</h1>
-<p align="center">
- <img src="https://github.com/igor-sergeevich-po/game-store/assets/93769681/2d739b54-cb2a-4022-8a68-7b00182ccbf4">
-</p>
-<br/>
-
-
 ## О приложении:
  Данное приложение является магазином по продаже ключей к цифровым копиям популярных компьютерных игр. Помогает клиентам подойти с разных сторон к выбору игр, тем самым увиличивая процент совершенных покупок, для удобства реализован быстрый поиск по названию, различные фильтры и акции для мотивации совершения покупок.
 ## Стек используемых технологий:
@@ -43,5 +34,3 @@ react, @redux/toolkit, react-router-dom, react-icons, classnames, gh-pages, css,
 <p align="center">
  <img src='https://user-images.githubusercontent.com/93769681/220620932-676bfa91-67d8-4813-8e5e-24da50619de8.png' width=70% />
 </p>
-
-

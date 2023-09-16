@@ -1,0 +1,34 @@
+.order-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.order-item__cover {
+  width: 200px;
+  margin-right: 30px;
+}
+
+.order-item__title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.order-item__price {
+  fonsz: 24px;
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.cart-item__delete-icon {
+  transition: 0.3s;
+}
+.cart-item__delete-icon:hover {
+  color: tomato;
+  transform: translateY(-5px);
+}
+.cart-item__delete-icon:active {
+  background-color: rgb(223, 44, 13);
+  color: black;
+  transform: translateY(5px);
+  border-radius: 6px;
+}
