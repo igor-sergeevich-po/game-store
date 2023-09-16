@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+## О приложении:
+ Данное приложение является магазином по продаже ключей к цифровым копиям популярных компьютерных игр. Помогает клиентам подойти с разных сторон к выбору игр, тем самым увиличивая процент совершенных покупок, для удобства реализован быстрый поиск по названию, различные фильтры и акции для мотивации совершения покупок.
+## Стек используемых технологий:
+При разработке приложения использовались следующие технологии:
+react, @redux/toolkit, react-router-dom, react-icons, classnames, gh-pages, css, html5.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Цель проекта:
+закрепление на практике полученных знаний во время изучения выше перечисленных технологий.
 
-## Available Scripts
+## Протестировать проект:
+для запуска приложения перейдите по следующей ссылке: [Запустить приложение Game store](https://igor-sergeevich-po.github.io/game-store/)
+<p align="center">
+ <img src='https://user-images.githubusercontent.com/93769681/220621081-bdf6abe1-5ed0-409f-897c-9e18c6e10a97.png' width=70% />
+</p>
 
-In the project directory, you can run:
+## Как установить приложение:
+* перед началом установите git и npm:
+  1)  [как установить git](https://yandex.ru/video/preview/2352951192924502203)
+  2)  [как установить npm](https://yandex.ru/video/preview/7036561970248194465)
+* запустить командную строку:
+  
+1) Нажмите на клавиатуре клавиши "Win" и "R".
+2) Откроется окно "Выполнить".
+3) Впишите в него команду cmd и нажмите "ОК".
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* в командную строку ввести ниже указанные команды, после каждой команды нажать на клавиатуре клавишу "Enter":
+1) git clone https://github.com/igor-sergeevich-po/game-store.git
+2) git checkout -b dev
+3) git branch --set-upstream-to=origin/dev
+4) git pull
+5) npm i
+6) npm start
+7) приступить к использованию приложения
+<p align="center">
+ <img src='https://user-images.githubusercontent.com/93769681/220620932-676bfa91-67d8-4813-8e5e-24da50619de8.png' width=70% />
+</p>
